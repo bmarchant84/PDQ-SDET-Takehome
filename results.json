@@ -1,0 +1,1809 @@
+{
+  "config": {
+    "configFile": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/playwright.config.ts",
+    "rootDir": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list"
+      ],
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "todo.spec.ts",
+      "file": "todo.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "innitial page load performance test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 545,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-15T15:20:18.822Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c2290300587baf0dfac-82c5789fd5f177cd115d",
+          "file": "todo.spec.ts",
+          "line": 44,
+          "column": 5
+        },
+        {
+          "title": "adding a todo performance test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 532,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-15T15:20:18.831Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c2290300587baf0dfac-893e1e92cd2f6aff4b9e",
+          "file": "todo.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "innitial page load performance test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1842,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-15T15:20:22.289Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c2290300587baf0dfac-71aec37fb88afd2bb5d3",
+          "file": "todo.spec.ts",
+          "line": 44,
+          "column": 5
+        },
+        {
+          "title": "adding a todo performance test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2043,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-15T15:20:22.326Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7c2290300587baf0dfac-c382525ec053614cdf90",
+          "file": "todo.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "innitial page load performance test",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 2,
+                  "status": "failed",
+                  "duration": 3,
+                  "error": {
+                    "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                    "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-15T15:20:33.592Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-innitial-page-load-performance-test-webkit/error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "7c2290300587baf0dfac-89738ea61397ca21815d",
+          "file": "todo.spec.ts",
+          "line": 44,
+          "column": 5
+        },
+        {
+          "title": "adding a todo performance test",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 3,
+                  "status": "failed",
+                  "duration": 3,
+                  "error": {
+                    "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                    "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-15T15:20:34.225Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-adding-a-todo-performance-test-webkit/error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "7c2290300587baf0dfac-20a56e2922896c791066",
+          "file": "todo.spec.ts",
+          "line": 52,
+          "column": 5
+        }
+      ],
+      "suites": [
+        {
+          "title": "Ben's PDQ Take Home Tests",
+          "file": "todo.spec.ts",
+          "line": 60,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should add a new todo item",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 713,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:18.802Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-0c075c2bb7df8d130f87",
+              "file": "todo.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should mark a todo item as completed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 846,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:18.810Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-f16825f22227c224a29b",
+              "file": "todo.spec.ts",
+              "line": 73,
+              "column": 7
+            },
+            {
+              "title": "should delete a todo item",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 650,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:19.632Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-789362f342adb1b9f1e0",
+              "file": "todo.spec.ts",
+              "line": 80,
+              "column": 7
+            },
+            {
+              "title": "should clear completed todo items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 634,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:19.633Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-8402a2475ef9baa396fa",
+              "file": "todo.spec.ts",
+              "line": 86,
+              "column": 7
+            },
+            {
+              "title": "should filter by active todos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 730,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:19.788Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-4feffb2890f1d10bbd15",
+              "file": "todo.spec.ts",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "should filter by completed todos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 780,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:19.931Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-ad2675c1e6cf8f27e874",
+              "file": "todo.spec.ts",
+              "line": 102,
+              "column": 7
+            },
+            {
+              "title": "should filter by all todos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 677,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:20.388Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-847f13ccfaf71e57f14d",
+              "file": "todo.spec.ts",
+              "line": 111,
+              "column": 7
+            },
+            {
+              "title": "Should allow the letter P to be typed as part of a word",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/3",
+                      "location": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "line": 121,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 620,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('todo-item')\nExpected: \u001b[32m\"Apple\"\u001b[39m\nError: strict mode violation: getByTestId('todo-item') resolved to 2 elements:\n    1) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'A' })\n    2) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'p' })\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('todo-item')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('todo-item')\nExpected: \u001b[32m\"Apple\"\u001b[39m\nError: strict mode violation: getByTestId('todo-item') resolved to 2 elements:\n    1) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'A' })\n    2) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'p' })\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('todo-item')\u001b[22m\n\n    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:124:42",
+                        "location": {
+                          "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                          "column": 42,
+                          "line": 124
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 122 |\u001b[39m\n \u001b[90m 123 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39minputBox\u001b[33m.\u001b[39mpressSequentially(\u001b[32m'Apple'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 124 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoListItems)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Apple'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 125 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 126 |\u001b[39m\n \u001b[90m 127 |\u001b[39m   test(\u001b[32m'Todo items left counter should update correctly'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "column": 42,
+                            "line": 124
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('todo-item')\nExpected: \u001b[32m\"Apple\"\u001b[39m\nError: strict mode violation: getByTestId('todo-item') resolved to 2 elements:\n    1) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'A' })\n    2) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'p' })\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('todo-item')\u001b[22m\n\n\n\u001b[0m \u001b[90m 122 |\u001b[39m\n \u001b[90m 123 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39minputBox\u001b[33m.\u001b[39mpressSequentially(\u001b[32m'Apple'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 124 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoListItems)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Apple'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 125 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 126 |\u001b[39m\n \u001b[90m 127 |\u001b[39m   test(\u001b[32m'Todo items left counter should update correctly'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:124:42\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:20.466Z",
+                      "annotations": [
+                        {
+                          "type": "fail",
+                          "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/3",
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "line": 121,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-3a751--be-typed-as-part-of-a-word-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "column": 42,
+                        "line": 124
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-96d3e68c31848b78000f",
+              "file": "todo.spec.ts",
+              "line": 120,
+              "column": 7
+            },
+            {
+              "title": "Todo items left counter should update correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/2",
+                      "location": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "line": 128,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 5618,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n\n    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:135:38",
+                        "location": {
+                          "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                          "column": 38,
+                          "line": 135
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mmarkAsCompleted(\u001b[32m'Task 1'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m\n \u001b[90m 137 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mmarkAsCompleted(\u001b[32m'Task 2'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'0'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "column": 38,
+                            "line": 135
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mmarkAsCompleted(\u001b[32m'Task 1'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m\n \u001b[90m 137 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mmarkAsCompleted(\u001b[32m'Task 2'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'0'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:135:38\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:20.725Z",
+                      "annotations": [
+                        {
+                          "type": "fail",
+                          "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/2",
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "line": 128,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-540b4-ter-should-update-correctly-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "column": 38,
+                        "line": 135
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-f915f1e750eabcbd788c",
+              "file": "todo.spec.ts",
+              "line": 127,
+              "column": 7
+            },
+            {
+              "title": "Deleting a todo doesn't update the items left counter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/1",
+                      "location": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "line": 142,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 5611,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n\n    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:149:38",
+                        "location": {
+                          "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                          "column": 38,
+                          "line": 149
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 147 |\u001b[39m\n \u001b[90m 148 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mdeleteTodo(\u001b[32m'Task 1'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 149 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 150 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 151 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "column": 38,
+                            "line": 149
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 147 |\u001b[39m\n \u001b[90m 148 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mdeleteTodo(\u001b[32m'Task 1'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 149 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 150 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 151 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:149:38\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:20.730Z",
+                      "annotations": [
+                        {
+                          "type": "fail",
+                          "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/1",
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "line": 142,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-f51f1-date-the-items-left-counter-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "column": 38,
+                        "line": 149
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-7d865929762472ae7248",
+              "file": "todo.spec.ts",
+              "line": 141,
+              "column": 7
+            },
+            {
+              "title": "should add a new todo item",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 934,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:25.624Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-de60f56431f8baa328d6",
+              "file": "todo.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should mark a todo item as completed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 2567,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:27.648Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-5c50d22398287bb4d4ea",
+              "file": "todo.spec.ts",
+              "line": 73,
+              "column": 7
+            },
+            {
+              "title": "should delete a todo item",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1375,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:26.398Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-6958dff2cfa58a48ae89",
+              "file": "todo.spec.ts",
+              "line": 80,
+              "column": 7
+            },
+            {
+              "title": "should clear completed todo items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 2048,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:27.665Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-0cd79cebd9dcd435fd27",
+              "file": "todo.spec.ts",
+              "line": 86,
+              "column": 7
+            },
+            {
+              "title": "should filter by active todos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1084,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:26.575Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-2bcb38c9e103c607b3ff",
+              "file": "todo.spec.ts",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "should filter by completed todos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1037,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:27.678Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-11cf3c8772585e665d81",
+              "file": "todo.spec.ts",
+              "line": 102,
+              "column": 7
+            },
+            {
+              "title": "should filter by all todos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1029,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:27.796Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-25accec969cedb6bd23a",
+              "file": "todo.spec.ts",
+              "line": 111,
+              "column": 7
+            },
+            {
+              "title": "Should allow the letter P to be typed as part of a word",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/3",
+                      "location": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "line": 121,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 721,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('todo-item')\nExpected: \u001b[32m\"Apple\"\u001b[39m\nError: strict mode violation: getByTestId('todo-item') resolved to 2 elements:\n    1) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'A' })\n    2) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'p' })\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('todo-item')\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('todo-item')\nExpected: \u001b[32m\"Apple\"\u001b[39m\nError: strict mode violation: getByTestId('todo-item') resolved to 2 elements:\n    1) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'A' })\n    2) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'p' })\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('todo-item')\u001b[22m\n\n    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:124:42",
+                        "location": {
+                          "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                          "column": 42,
+                          "line": 124
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 122 |\u001b[39m\n \u001b[90m 123 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39minputBox\u001b[33m.\u001b[39mpressSequentially(\u001b[32m'Apple'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 124 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoListItems)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Apple'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 125 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 126 |\u001b[39m\n \u001b[90m 127 |\u001b[39m   test(\u001b[32m'Todo items left counter should update correctly'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "column": 42,
+                            "line": 124
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('todo-item')\nExpected: \u001b[32m\"Apple\"\u001b[39m\nError: strict mode violation: getByTestId('todo-item') resolved to 2 elements:\n    1) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'A' })\n    2) <li class=\"\" data-testid=\"todo-item\">…</li> aka getByTestId('todo-list').getByRole('listitem').filter({ hasText: 'p' })\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('todo-item')\u001b[22m\n\n\n\u001b[0m \u001b[90m 122 |\u001b[39m\n \u001b[90m 123 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39minputBox\u001b[33m.\u001b[39mpressSequentially(\u001b[32m'Apple'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 124 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoListItems)\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Apple'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 125 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 126 |\u001b[39m\n \u001b[90m 127 |\u001b[39m   test(\u001b[32m'Todo items left counter should update correctly'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[2m    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:124:42\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:28.738Z",
+                      "annotations": [
+                        {
+                          "type": "fail",
+                          "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/3",
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "line": 121,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-3a751--be-typed-as-part-of-a-word-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "column": 42,
+                        "line": 124
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-f9904e50cb2776b22a04",
+              "file": "todo.spec.ts",
+              "line": 120,
+              "column": 7
+            },
+            {
+              "title": "Todo items left counter should update correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/2",
+                      "location": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "line": 128,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 5862,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n\n    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:135:38",
+                        "location": {
+                          "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                          "column": 38,
+                          "line": 135
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mmarkAsCompleted(\u001b[32m'Task 1'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m\n \u001b[90m 137 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mmarkAsCompleted(\u001b[32m'Task 2'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'0'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "column": 38,
+                            "line": 135
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 133 |\u001b[39m\n \u001b[90m 134 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mmarkAsCompleted(\u001b[32m'Task 1'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 135 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 136 |\u001b[39m\n \u001b[90m 137 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mmarkAsCompleted(\u001b[32m'Task 2'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 138 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'0'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:135:38\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:28.848Z",
+                      "annotations": [
+                        {
+                          "type": "fail",
+                          "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/2",
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "line": 128,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-540b4-ter-should-update-correctly-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "column": 38,
+                        "line": 135
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-183b818ca0996de217bf",
+              "file": "todo.spec.ts",
+              "line": 127,
+              "column": 7
+            },
+            {
+              "title": "Deleting a todo doesn't update the items left counter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "fail",
+                      "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/1",
+                      "location": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "line": 142,
+                        "column": 10
+                      }
+                    }
+                  ],
+                  "expectedStatus": "failed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5929,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n\n    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:149:38",
+                        "location": {
+                          "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                          "column": 38,
+                          "line": 149
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 147 |\u001b[39m\n \u001b[90m 148 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mdeleteTodo(\u001b[32m'Task 1'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 149 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 150 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 151 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "column": 38,
+                            "line": 149
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByTestId('footer').locator('.todo-count')\nExpected substring: \u001b[32m\"1\"\u001b[39m\nReceived string:    \u001b[31m\"2 item left!\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toContainText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('footer').locator('.todo-count')\u001b[22m\n\u001b[2m    9 × locator resolved to <span class=\"todo-count\">2 item left!</span>\u001b[22m\n\u001b[2m      - unexpected value \"2 item left!\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 147 |\u001b[39m\n \u001b[90m 148 |\u001b[39m     \u001b[36mawait\u001b[39m todoPage\u001b[33m.\u001b[39mdeleteTodo(\u001b[32m'Task 1'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 149 |\u001b[39m     \u001b[36mawait\u001b[39m expect(todoPage\u001b[33m.\u001b[39mtodoCount)\u001b[33m.\u001b[39mtoContainText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 150 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 151 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 152 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts:149:38\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:29.489Z",
+                      "annotations": [
+                        {
+                          "type": "fail",
+                          "description": "https://github.com/bmarchant84/PDQ-SDET-Takehome/issues/1",
+                          "location": {
+                            "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                            "line": 142,
+                            "column": 10
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-f51f1-date-the-items-left-counter-firefox/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/tests/todo.spec.ts",
+                        "column": 38,
+                        "line": 149
+                      }
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-adc99fd6c7d64d191c01",
+              "file": "todo.spec.ts",
+              "line": 141,
+              "column": 7
+            },
+            {
+              "title": "should add a new todo item",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 3,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:34.406Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-Tests-should-add-a-new-todo-item-webkit/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-5a8ff9095f8c8d49f48c",
+              "file": "todo.spec.ts",
+              "line": 68,
+              "column": 7
+            },
+            {
+              "title": "should mark a todo item as completed",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 3,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:35.142Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-c2ccb-rk-a-todo-item-as-completed-webkit/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-522683b4a5123da33437",
+              "file": "todo.spec.ts",
+              "line": 73,
+              "column": 7
+            },
+            {
+              "title": "should delete a todo item",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 7,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:35.447Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-Tests-should-delete-a-todo-item-webkit/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-80d828f70a722d7f68c7",
+              "file": "todo.spec.ts",
+              "line": 80,
+              "column": 7
+            },
+            {
+              "title": "should clear completed todo items",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 3,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:37.637Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-0d178--clear-completed-todo-items-webkit/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-2a0ba8ce4b6de2ecba27",
+              "file": "todo.spec.ts",
+              "line": 86,
+              "column": 7
+            },
+            {
+              "title": "should filter by active todos",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 3,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:36.640Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-Tests-should-filter-by-active-todos-webkit/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-2cff4da44832e585475b",
+              "file": "todo.spec.ts",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "should filter by completed todos",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:38.561Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-f1958-d-filter-by-completed-todos-webkit/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-d16da3cb9679ffce1c5a",
+              "file": "todo.spec.ts",
+              "line": 102,
+              "column": 7
+            },
+            {
+              "title": "should filter by all todos",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 3,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:37.252Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-Tests-should-filter-by-all-todos-webkit/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-93fdef433b4d8134685a",
+              "file": "todo.spec.ts",
+              "line": 111,
+              "column": 7
+            },
+            {
+              "title": "Should allow the letter P to be typed as part of a word",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 3,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:38.282Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-3a751--be-typed-as-part-of-a-word-webkit/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-6cc3360338170135c978",
+              "file": "todo.spec.ts",
+              "line": 120,
+              "column": 7
+            },
+            {
+              "title": "Todo items left counter should update correctly",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 2,
+                      "status": "failed",
+                      "duration": 4,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:38.751Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-540b4-ter-should-update-correctly-webkit/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-27ca2611dad494b3b313",
+              "file": "todo.spec.ts",
+              "line": 127,
+              "column": 7
+            },
+            {
+              "title": "Deleting a todo doesn't update the items left counter",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 3,
+                      "error": {
+                        "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+                        "stack": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                      },
+                      "errors": [
+                        {
+                          "message": "Error: browserType.launch: Executable doesn't exist at /Users/kellymarchant/Library/Caches/ms-playwright/webkit-2272/pw_run.sh\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-15T15:20:38.937Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/kellymarchant/Documents/bengithub/PDQ-SDET-Takehome/test-results/todo-Ben-s-PDQ-Take-Home-T-f51f1-date-the-items-left-counter-webkit/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "7c2290300587baf0dfac-8351217890d197eb33c2",
+              "file": "todo.spec.ts",
+              "line": 141,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-04-15T15:20:17.877Z",
+    "duration": 21137.672,
+    "expected": 24,
+    "skipped": 0,
+    "unexpected": 12,
+    "flaky": 0
+  }
+}
